@@ -39,4 +39,4 @@ if st.button("Generate Password"):
     st.write(f"Generated Password: `{password}`")  # Display the generated password
 
     st.markdown("---")
-    st.markdown("**Developed by [ᑌs๓ᴀñ̰︵khokhar](https://github.com/bydjusman)**")  
+    st.markdown("**Developed by [ᑌs๓ᴀñ̰︵khokhar](https://github.com/bydjusman/python-assingment)**")  
