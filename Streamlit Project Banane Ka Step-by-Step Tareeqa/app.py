@@ -14,6 +14,9 @@
 # Agar sahi se activate ho gaya, toh terminal me kuch aisa dikhai dega:
 # (venv) C:\python-clasess\secure-data-encryption-system>
 
+# file create kro requirements.txt me likho
+# pip freeze > requirements.txt 
+
 
 # Step 4: Zaroori Libraries Install Karo
 # pip install streamlit pandas matplotlib

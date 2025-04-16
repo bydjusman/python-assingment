@@ -2,14 +2,17 @@ import streamlit as st
 import hashlib
 from cryptography.fernet import Fernet
 
+# ✅ Must be the first Streamlit command
+st.set_page_config(page_title="Secure Encryption System", page_icon="🛡️")
+
 # --- Generate key for encryption ---
 if "FERNET_KEY" not in st.session_state:
     st.session_state.FERNET_KEY = Fernet.generate_key()
 cipher = Fernet(st.session_state.FERNET_KEY)
 
-# --- Initialize storage ---
+# --- Initialize session state ---
 if "stored_data" not in st.session_state:
-    st.session_state.stored_data = {}  # {"encrypted_text": {"encrypted_text": x, "passkey": hashed}}
+    st.session_state.stored_data = {}
 
 if "failed_attempts" not in st.session_state:
     st.session_state.failed_attempts = 0
@@ -17,7 +20,7 @@ if "failed_attempts" not in st.session_state:
 if "authorized" not in st.session_state:
     st.session_state.authorized = True
 
-# --- Utility Functions ---
+# --- Functions ---
 def hash_passkey(passkey):
     return hashlib.sha256(passkey.encode()).hexdigest()
 
@@ -35,8 +38,7 @@ def decrypt_data(encrypted_text, passkey):
     st.session_state.failed_attempts += 1
     return None
 
-# --- Streamlit UI ---
-st.set_page_config(page_title="Secure Encryption System", page_icon="🛡️")
+# --- UI Layout ---
 st.title("🛡️ Secure Data Encryption System")
 
 # --- Navigation ---
