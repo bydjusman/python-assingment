@@ -30,9 +30,11 @@ with st.form("add_book_form"):
         df = pd.concat([df, new_book], ignore_index=True)
         df.to_csv(file_path, index=False)
         st.success("Book added successfully!")
-        st.experimental_rerun()
+        st.rerun()
+
 st.header("📖 Your Book Collection")
 st.dataframe(df, use_container_width=True)
+
 st.header("🗑️ Delete a Book")
 
 if not df.empty:
@@ -41,6 +43,6 @@ if not df.empty:
         df = df[df["Title"] != book_to_delete]
         df.to_csv(file_path, index=False)
         st.success("Book deleted successfully!")
-        st.experimental_rerun()
+        st.rerun()
 else:
     st.info("No books to delete.")

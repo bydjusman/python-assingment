@@ -6,12 +6,14 @@
 
 
 # Step 2: Virtual Environment Banao
-# python3 -m venv env
-
+# python3 -m venv venv 
 
 # Step 3: Virtual Environment Activate Karo
-# .\venv\Scripts\activate
-# (venv) C:\Users\Usman\mood_tracker>
+# .\venv\Scripts\activate 
+
+# Agar sahi se activate ho gaya, toh terminal me kuch aisa dikhai dega:
+# (venv) C:\python-clasess\secure-data-encryption-system>
+
 
 # Step 4: Zaroori Libraries Install Karo
 # pip install streamlit pandas matplotlib
