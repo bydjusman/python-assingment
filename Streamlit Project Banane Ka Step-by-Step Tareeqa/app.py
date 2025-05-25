@@ -1,7 +1,7 @@
 #  Step 1: Ek Naya Folder Banao (Project Folder)
 
 #  Step 2: Ek Naya File Banao (app.py)
-# mkdir mood_tracker file name
+#  mood_tracker file name ap kuch bhi rakh sakte ho name 
 # cd mood_tracker file me enter hoga
 
 
@@ -15,15 +15,12 @@
 # (venv) C:\python-clasess\secure-data-encryption-system>
 
 # file create kro requirements.txt me likho
-# pip freeze > requirements.txt 
+# 
+# pip freeze > requirements.txt        terminal per run kro req ki file khudi ban jaye gi
 
 
 # Step 4: Zaroori Libraries Install Karo
 # pip install streamlit pandas matplotlib
-
-# Step 5: Main Python File Banao
-#Ek file banao:
-# mood_app.py (ya jo bhi naam chaho)
 
 # Isme tum apna Streamlit ka code likhoge.
 # Example code:
