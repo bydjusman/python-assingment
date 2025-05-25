@@ -14,7 +14,7 @@
 # Agar sahi se activate ho gaya, toh terminal me kuch aisa dikhai dega:
 # (venv) C:\python-clasess\secure-data-encryption-system>
 
-# file create kro requirements.txt me likho
+# file create kro requirements.txt 
 # 
 # pip freeze > requirements.txt        terminal per run kro req ki file khudi ban jaye gi
 
