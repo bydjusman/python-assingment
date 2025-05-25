@@ -1,7 +1,7 @@
 #  Step 1: Ek Naya Folder Banao (Project Folder)
 
 #  Step 2: Ek Naya File Banao (app.py)
-#  mood_tracker file name ap kuch bhi rakh sakte ho name 
+#  mood_tracker file name ap kuch bhi rakh sakte ho app.py main.py mood_tracker xyz
 # cd mood_tracker file me enter hoga
 
 
