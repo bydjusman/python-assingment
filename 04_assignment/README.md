@@ -1,5 +1,3 @@
-# create_readme.py
-
 content = """# 📚 Assignment Repository
 
 Welcome to your Assignment Repository! Below are links to Assignment 01, Assignments 00 through 05, and the Online Assignment. Make sure to complete all the tasks to successfully finish your coursework! ✨
@@ -26,8 +24,9 @@ Click the link below to access Assignment 01. This assignment includes tasks tha
 
 ## 🔹 Key Topics Covered
 
-- [Notebook 1](https://colab.research.google.com/drive/1MSAd1TGCtDbGdTvlXz7KD8eVxW0gK21s)
-- [Notebook 2](https://colab.research.google.com/drive/1LkQeB2CfoSx_0UrzoaWh6bTlHGP2EOK8)
+- [Project 4 Assignments 00-to-05](https://colab.research.google.com/drive/1MSAd1TGCtDbGdTvlXz7KD8eVxW0gK21s)
+- [Assignment 01](https://colab.research.google.com/drive/1LkQeB2CfoSx_0UrzoaWh6bTlHGP2EOK8)
+- [Assignments 1 to 6](https://colab.research.google.com/drive/1QtgJFZYR2mcHopPWxTuXxAm9SOy5iz7z)
 
 ---
 
@@ -35,7 +34,7 @@ Click the link below to access Assignment 01. This assignment includes tasks tha
 
 These assignments are designed to help you master the core concepts and build a strong foundation. Make sure to go through each task thoroughly and complete them in order, as they are interconnected.
 
-🔗 [Assignments 00 to 05 - Link](#)
+🔗 [Assignments 00 to 05 - Link](https://colab.research.google.com/drive/1MSAd1TGCtDbGdTvlXz7KD8eVxW0gK21s)
 
 ---
 
@@ -81,3 +80,4 @@ with open("README.md", "w", encoding="utf-8") as file:
     file.write(content)
 
 print("README.md file created successfully!")
+
