@@ -28,7 +28,8 @@ Click the link below to access Assignment 01. This assignment includes tasks tha
 ## 🔹 Key Topics Covered
 
 - [Project 4 Assignments 00-to-05](https://colab.research.google.com/drive/1MSAd1TGCtDbGdTvlXz7KD8eVxW0gK21s)
-- [Notebook 2](https://colab.research.google.com/drive/1LkQeB2CfoSx_0UrzoaWh6bTlHGP2EOK8)
+- [Assignment 01](https://colab.research.google.com/drive/1LkQeB2CfoSx_0UrzoaWh6bTlHGP2EOK8)
+- [Assignments 1 to 6](https://colab.research.google.com/drive/1QtgJFZYR2mcHopPWxTuXxAm9SOy5iz7z)
 
 ---
 
@@ -36,7 +37,7 @@ Click the link below to access Assignment 01. This assignment includes tasks tha
 
 These assignments are designed to help you master the core concepts and build a strong foundation. Make sure to go through each task thoroughly and complete them in order, as they are interconnected.
 
-🔗 [Assignments 00 to 05 - Link](#)
+🔗 [Assignments 00 to 05 - Link](https://colab.research.google.com/drive/1MSAd1TGCtDbGdTvlXz7KD8eVxW0gK21s)
 
 ---
 
