@@ -38,7 +38,7 @@ These assignments are designed to help you master the core concepts and build a 
 
 ---
 
-## Online Assignment 🌐
+## online_class_projects 🌐
 
 This is the link to the Online Assignment that you need to complete and submit online. This assignment is conducted through Google Colab. Make sure to follow the guidelines provided within the notebook.
 
