@@ -39,10 +39,12 @@ These assignments are designed to help you master the core concepts and build a 
 ---
 
 ## online_class_projects 🌐
+## 01_basics
+## 02_intermediate
 
 This is the link to the Online Assignment that you need to complete and submit online. This assignment is conducted through Google Colab. Make sure to follow the guidelines provided within the notebook.
 
-🔗 [Online Assignment - Link](#)
+🔗 [Online Assignment - Link](https://colab.research.google.com/drive/1LkQeB2CfoSx_0UrzoaWh6bTlHGP2EOK8)
 
 > 🌟 **Note**: Ensure that you have access to a stable internet connection while completing the online assignment to avoid any interruptions.
 
