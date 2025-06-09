@@ -4,24 +4,6 @@
 #  mood_tracker file name ap kuch bhi rakh sakte ho app.py main.py mood_tracker xyz
 # cd mood_tracker file me enter hoga
 
-
-# Step 2: Virtual Environment Banao
-# python3 -m venv venv 
-
-# Step 3: Virtual Environment Activate Karo
-# .\venv\Scripts\activate 
-
-# Agar sahi se activate ho gaya, toh terminal me kuch aisa dikhai dega:
-# (venv) C:\python-clasess\secure-data-encryption-system>
-
-# file create kro requirements.txt 
-# 
-# pip freeze > requirements.txt        terminal per run kro req ki file khudi ban jaye gi
-
-
-# Step 4: Zaroori Libraries Install Karo
-# pip install streamlit pandas matplotlib
-
 # Isme tum apna Streamlit ka code likhoge.
 # Example code:
 
@@ -29,6 +11,25 @@ import streamlit as st
 
 st.title("My First Streamlit App")
 st.write("Welcome to my app!")
+
+
+# Step 3: Virtual Environment Banao
+# python -m venv venv 
+
+# Step 4: Virtual Environment Activate Karo
+# .\venv\Scripts\activate 
+
+# Agar sahi se activate ho gaya, toh terminal me kuch aisa dikhai dega:
+# (venv) C:\python-clasess\secure-data-encryption-system>
+
+# Step 5: Zaroori Libraries Install Karo Install Streamlit:
+# pip install streamlit
+
+# file create kro requirements.txt 
+# terminal per run kro req ki file khudi ban jaye gi
+
+# pip freeze > requirements.txt 
+
 
 # Step 6: App Run Karo
 # streamlit run mood_app.py
