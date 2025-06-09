@@ -20,7 +20,7 @@ uv init .
 uv pip install streamlit
 
 # Step 4: uv se Streamlit run karein
-uv streamlit run main.py
+streamlit run main.py
 
 # Extra Tip: Requirements save karna ho toh:
 uv pip freeze > requirements.txt
